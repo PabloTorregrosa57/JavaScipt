@@ -1,0 +1,65 @@
+body {
+    color: #222;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body, h2, div, input, button {
+    padding: 0;
+    margin: 0;
+}
+
+.names{
+    max-width: 600px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.name {
+    display: grid;
+    grid-template-columns: minmax(100px, 300px) 1fr;
+    border-top: 1px solid #48e;
+}
+
+.options {
+    display: flex;
+    justify-self: end;
+}
+
+.add-name {
+    margin-top: 40px;
+}
+
+#name, #add {
+    padding: 4px 8px;
+}
+
+.options button{
+    background: transparent;
+    border: none;
+    margin: 4px 10px;
+    outline: none;
+}
+
+.delete:hover {
+    color: #999;
+}
+
+.impossible {
+    color: #ccc;
+}
+
+.possible {
+    color: #37d;
+}
+
+.possible:hover {
+    color: #6af;
+}
+
+.name h2 {
+    padding: 6px;
+    color: #48e;
+    justify-self: left;
+    outline-color: #48e;
+}

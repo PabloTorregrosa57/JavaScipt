@@ -1,0 +1,30 @@
+body {
+    color: #222;
+    font-family: sans-serif;
+}
+
+.matters {
+    width: 90%;
+    background: #ccc;
+    padding: 2px;
+    font-size: 20px;
+}
+
+.matter {
+    background: #efefef;
+    display: flex;
+}
+
+.matter div{
+    padding: 20px;
+}
+
+.matter .note {
+    flex-basis: 20px;
+    background: #ddd;
+    font-weight: 700;
+}
+
+.matter .nameMatter{
+    flex-grow: 1;
+}
